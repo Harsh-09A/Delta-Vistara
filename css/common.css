@@ -173,3 +173,38 @@
   transform: translateY(-3px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
+
+/* Scrollbar  */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--tertiary-color);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--colorSecondary);
+}
+
+.policy_links a {
+  color: var(--colorSecondary);
+}
+.read_more2 {
+  cursor: pointer;
+  color: var(--colorSecondary);
+  padding: 5px 10px;
+}
