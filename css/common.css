@@ -123,3 +123,53 @@
   cursor: pointer;
   color: var(--colorPrimary);
 }
+
+/* Button Styles */
+.btn-primary-estate {
+  background-color: var(--colorPrimary);
+  border-color: var(--colorPrimary);
+  color: white;
+  padding: 12px 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+
+.btn-primary-estate:hover {
+  background-color: var(--colorSecondary);
+  border-color: var(--colorSecondary);
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  color: white;
+  /* color: var(--colorPrimary); */
+}
+
+.btn-secondary-estate {
+  background-color: transparent;
+  border: 2px solid var(--colorPrimary);
+  color: var(--colorPrimary);
+  padding: 11px 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+  color: white;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+
+.btn-secondary-estate:hover {
+  background-color: var(--colorPrimary);
+  color: white;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
